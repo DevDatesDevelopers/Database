@@ -2,10 +2,10 @@ const sql = require('mssql');
 const faker = require('faker');
 
 const config = {
-  server: 'localhost',
-  database: 'mydb',
-  user: 'sa',
-  password: 'mypassword',
+  server: 'devdates.database.windows.net',
+  database: 'DevDatesDB',
+  user: 'master',
+  password: 'DevKristian1',
   options: {
     enableArithAbort: true,
     trustServerCertificate: true,
