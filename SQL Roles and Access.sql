@@ -8,4 +8,4 @@ CREATE LOGIN class WITH PASSWORD = 'DevDatesPublic123';
 
 CREATE USER PublicAccess FOR LOGIN class
 
-exec sys.sp_addrolemember 'public', 'PublicAccess';
+exec sys.sp_addrolemember 'db_datawriter', 'PublicAccess';
