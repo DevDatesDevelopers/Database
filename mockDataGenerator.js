@@ -5,7 +5,7 @@ const config = {
   server: 'devdates.database.windows.net',
   database: 'DevDatesDB',
   user: 'master',
-  password: 'DevKristian1',
+  password: '************',
   options: {
     enableArithAbort: true,
     trustServerCertificate: true,
